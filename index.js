@@ -241,3 +241,5 @@ const p3 = new Promise((resolve, reject) => {
 Promise.all([p1, p2, p3]).then(values => {
   console.log(values); // 
 });
+
+//The Promise.all() method takes an iterable of promises as an input, and returns a single Promise that resolves to an array of the results of the input promises.
